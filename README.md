@@ -7,7 +7,6 @@
 
 ## Overview
 
-* This section could contain a short paragraph which include the following:
   * **Challenge:** The task, as defined by the Kaggle challenge is to use categorical features from 23 different species of gilled mushrooms to predict the edibility of a given mushroom.
   * **Approach:** The approach in this repository formulates the problem as a classification task, using deep recurrent neural networks, where one-hot encoding is applied to the categorical features to convert them into numerical format. The transformed features are used as input for the model, and the performance of Decision Tree Classifier used to predict mushroom edibility (e.g., edible or poisonous).
   * **Summary:** The Decision Tree Classifier was able to predict the edibility of mushrooms with 100% accuracy.
