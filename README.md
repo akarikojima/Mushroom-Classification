@@ -1,4 +1,4 @@
-![](UTA-DataScience-Logo.png)
+jup![](UTA-DataScience-Logo.png)
 
 # Mushroom Classification Machine Learning
 
@@ -34,7 +34,7 @@ There were various features that were great to be used to train the algorithm ju
 ### Problem Formulation
 
 * Define:
-  * Input: Mushroom Characteristics / Predicted edibility
+  * Input: Mushroom Characteristics / Output: Predicted edibility
   * Models
     * Decision Tree Classifier: Handles categorical and numerical values and efficient and fast
     
