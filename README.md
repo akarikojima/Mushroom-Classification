@@ -1,16 +1,16 @@
 ![](UTA-DataScience-Logo.png)
 
-# Project Title
+# Mushroom Classification Machine Learning
 
-* **One Sentence Summary** Ex: This repository holds an attempt to apply LSTMs to Stock Market using data from
-"Get Rich" Kaggle challenge (provide link). 
+* **One Sentence Summary** This repository holds an attempt to apply a Decision Tree Classifier to mushroom features using data from
+"Mushroom Classification" Kaggle challenge (https://www.kaggle.com/datasets/uciml/mushroom-classification/data). 
 
 ## Overview
 
 * This section could contain a short paragraph which include the following:
-  * **Definition of the tasks / challenge**  Ex: The task, as defined by the Kaggle challenge is to use a time series of 12 features, sampled daily for 1 month, to predict the next day's price of a stock.
-  * **Your approach** Ex: The approach in this repository formulates the problem as regression task, using deep recurrent neural networks as the model with the full time series of features as input. We compared the performance of 3 different network architectures.
-  * **Summary of the performance achieved** Ex: Our best model was able to predict the next day stock price within 23%, 90% of the time. At the time of writing, the best performance on Kaggle of this metric is 18%.
+  * **Challenge:** The task, as defined by the Kaggle challenge is to use categorical features from 23 different species of gilled mushrooms to predict the edibility of a given mushroom.
+  * **Approach:** The approach in this repository formulates the problem as a classification task, using deep recurrent neural networks, where one-hot encoding is applied to the categorical features to convert them into numerical format. The transformed features are used as input for the model, and the performance of Decision Tree Classifier used to predict mushroom edibility (e.g., edible or poisonous).
+  * **Summary:** The Decision Tree Classifier was able to predict the edibility of mushrooms with 100% accuracy.
 
 ## Summary of Workdone
 
