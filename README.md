@@ -8,25 +8,22 @@
 ## Overview
 
   * **Challenge:** The task, as defined by the Kaggle challenge is to use categorical features from 23 different species of gilled mushrooms to predict the edibility of a given mushroom.
-  * **Approach:** The approach in this repository formulates the problem as a classification task, using deep recurrent neural networks, where one-hot encoding is applied to the categorical features to convert them into numerical format. The transformed features are used as input for the model, and the performance of Decision Tree Classifier used to predict mushroom edibility (e.g., edible or poisonous).
+  * **Approach:** The approach in this repository formulates the problem as a classification task, using deep recurrent neural networks, where one-hot encoding is applied to the categorical features to convert them into numerical format. The transformed features are used as input for the model, and the performance of Decision Tree Classifier used to predict mushroom edibility (e.g. edible or poisonous).
   * **Summary:** The Decision Tree Classifier was able to predict the edibility of mushrooms with 100% accuracy.
-
-## Summary of Workdone
-
-Include only the sections that are relevant an appropriate.
 
 ### Data
 
 * Data:
-  * Type: For example
-    * Input: medical images (1000x1000 pixel jpegs), CSV file: image filename -> diagnosis
-    * Input: CSV file of features, output: signal/background flag in 1st column.
-  * Size: How much data?
-  * Instances (Train, Test, Validation Split): how many data points? Ex: 1000 patients for training, 200 for testing, none for validation
+  * Type: Categorical
+    * Input: Mushrooms characteristics, CSV file: characteristics -> edibility
+  * Size: 8124 rows, 23 features, CSV file: 365.2 KB
+  * Instances (Train, Test, Validation Split): 4784 characteristics for training, 1625 for testing, 1625 for validation
 
 #### Preprocessing / Clean up
 
-* Describe any manipulations you performed to the data.
+* In the feature, 'stalk-root', there were unknown values.
+ * These were converted to characteristics depending on the frequency of the class
+* The features, 'gill-attachment' and 'veil-type', were dropped due to their irrelevancy
 
 #### Data Visualization
 
