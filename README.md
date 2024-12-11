@@ -40,7 +40,7 @@ There were various features that were great to be used to train the algorithm ju
     
 ### Training
 
-*Decision Tree Classifier with default parameters
+* Decision Tree Classifier with default parameters
 
 ### Performance Comparison
 
