@@ -37,7 +37,7 @@ There were various features that were great to be used to train the algorithm ju
   * Input: Mushroom Characteristics / Predicted edibility
   * Models
     * Decision Tree Classifier: Handles categorical and numerical values and efficient and fast
-    * 
+    
 ### Training
 
 * Describe the training:
