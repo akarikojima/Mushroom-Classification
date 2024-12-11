@@ -13,7 +13,6 @@
 
 ### Data
 
-* Data:
   * Type: Categorical
     * Input: Mushrooms characteristics, CSV file: characteristics -> edibility
   * Size: 8124 rows, 23 features, CSV file: 365.2 KB
@@ -22,21 +21,23 @@
 #### Preprocessing / Clean up
 
 * In the feature, 'stalk-root', there were unknown values.
- * These were converted to characteristics depending on the frequency of the class
+  * These were converted to characteristics depending on the frequency of the class
 * The features, 'gill-attachment' and 'veil-type', were dropped due to their irrelevancy
 
 #### Data Visualization
 
-Show a few visualization of the data and say a few words about what you see.
+![image](https://github.com/user-attachments/assets/9c3abd8c-1f4e-4f03-aeea-bb89692d5edf)
+![image](https://github.com/user-attachments/assets/15bac698-b851-4365-94a9-a31706f83ce9)
+
+There were various features that were great to be used to train the algorithm just as seen in the figures above. There were clear differences between the frequencies of bruises and odor depending on their edibility.
 
 ### Problem Formulation
 
 * Define:
-  * Input / Output
+  * Input: Mushroom Characteristics / Predicted edibility
   * Models
-    * Describe the different models you tried and why.
-  * Loss, Optimizer, other Hyperparameters.
-
+    * Decision Tree Classifier: Handles categorical and numerical values and efficient and fast
+    * 
 ### Training
 
 * Describe the training:
