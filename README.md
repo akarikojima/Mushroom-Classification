@@ -40,18 +40,11 @@ There were various features that were great to be used to train the algorithm ju
     
 ### Training
 
-* Describe the training:
-  * How you trained: software and hardware.
-  * How did training take.
-  * Training curves (loss vs epoch for test/train).
-  * How did you decide to stop training.
-  * Any difficulties? How did you resolve them?
+*Decision Tree Classifier with default parameters
 
 ### Performance Comparison
 
 * Clearly define the key performance metric(s).
-* Show/compare results in one table.
-* Show one (or few) visualization(s) of results, for example ROC curves.
 
 ### Conclusions
 
@@ -72,46 +65,17 @@ There were various features that were great to be used to train the algorithm ju
 
 ### Overview of files in repository
 
-* Describe the directory structure, if any.
-* List all relavent files and describe their role in the package.
-* An example:
-  * utils.py: various functions that are used in cleaning and visualizing data.
-  * preprocess.ipynb: Takes input data in CSV and writes out data frame after cleanup.
-  * visualization.ipynb: Creates various visualizations of the data.
-  * models.py: Contains functions that build the various models.
-  * training-model-1.ipynb: Trains the first model and saves model during training.
-  * training-model-2.ipynb: Trains the second model and saves model during training.
-  * training-model-3.ipynb: Trains the third model and saves model during training.
-  * performance.ipynb: loads multiple trained models and compares results.
-  * inference.ipynb: loads a trained model and applies it to test data to create kaggle submission.
-
-* Note that all of these notebooks should contain enough text for someone to understand what is happening.
+* Follow the Mushroom_classfication.ipynb file.
 
 ### Software Setup
-* List all of the required packages.
-* If not standard, provide or point to instruction for installing the packages.
-* Describe how to install your package.
-
-### Data
-
-* Point to where they can download the data.
-* Lead them through preprocessing steps, if necessary.
-
-### Training
-
-* Describe how to train the model
-
-#### Performance Evaluation
-
-* Describe how to run the performance evaluation.
-
-
-## Citations
-
-* Provide any references.
-
-
-
+* Used modules:
+  * pandas as pd
+  * numpy as np
+  * seaborn as sns
+  * matplotlib.pyplot as pltList
+  * sklearn.model_selection import train_test_split
+  * sklearn.tree import DecisionTreeClassifier
+  * sklearn.metrics import accuracy_score
 
 
 
