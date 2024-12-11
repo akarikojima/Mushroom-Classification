@@ -43,27 +43,19 @@ There were various features that were great to be used to train the algorithm ju
 
 * Decision Tree Classifier with default parameters
 
-### Performance Comparison
-
-* Clearly define the key performance metric(s).
-
 ### Conclusions
 
-* State any conclusions you can infer from your work. Example: LSTM work better than GRU.
+![image](https://github.com/user-attachments/assets/c7ccacd4-f89d-4dcd-87ce-2a3d3564559c)
 
-### Future Work
-
-* What would be the next thing that you would try.
-* What are some other studies that can be done starting from here.
+* The algorithm was able to predict the edibility of the mushroom 100% of the time. 
 
 ## How to reproduce results
 
-* In this section, provide instructions at least one of the following:
-   * Reproduce your results fully, including training.
-   * Apply this package to other data. For example, how to use the model you trained.
-   * Use this package to perform their own study.
-* Also describe what resources to use for this package, if appropirate. For example, point them to Collab and TPUs.
-
+* Convert the '?' values in the feature 'stalk-root' into the characteristics with the highest frequency depending on the classes
+* Split the features into separate characteristics and hot encode the categorical values into numerical
+* Set the target as 'class'
+* Run a Decision Tree Classifier algorithm
+* 
 ### Overview of files in repository
 
 * Follow the Mushroom_classfication.ipynb file.
