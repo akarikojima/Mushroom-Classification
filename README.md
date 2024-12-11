@@ -2,7 +2,7 @@
 
 # Mushroom Classification Machine Learning
 
-* **One Sentence Summary** This repository holds an attempt to apply a Decision Tree Classifier to mushroom features using data from
+* This repository holds an attempt to apply a Decision Tree Classifier to mushroom features using data from
 "Mushroom Classification" Kaggle challenge (https://www.kaggle.com/datasets/uciml/mushroom-classification/data). 
 
 ## Overview
