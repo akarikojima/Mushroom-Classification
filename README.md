@@ -14,7 +14,7 @@
 ### Data
 
   * Type: Categorical
-    * Input: Mushrooms characteristics, CSV file: characteristics -> edibility
+    * Input: Mushrooms characteristics
   * Size: 8124 rows, 23 features, CSV file: 365.2 KB
   * Instances (Train, Test, Validation Split): 4784 characteristics for training, 1625 for testing, 1625 for validation
 
