@@ -20,6 +20,7 @@ jup![](UTA-DataScience-Logo.png)
 
 #### Preprocessing / Clean up
 
+![image](https://github.com/user-attachments/assets/5f9c2dcd-8a0c-4084-b47d-0801dc0657e0)
 * In the feature, 'stalk-root', there were unknown values.
   * These were converted to characteristics depending on the frequency of the class
 * The features, 'gill-attachment' and 'veil-type', were dropped due to their irrelevancy
