@@ -55,7 +55,7 @@ There were various features that were great to be used to train the algorithm ju
 * Split the features into separate characteristics and hot encode the categorical values into numerical
 * Set the target as 'class'
 * Run a Decision Tree Classifier algorithm
-* 
+  
 ### Overview of files in repository
 
 * Follow the Mushroom_classfication.ipynb file.
